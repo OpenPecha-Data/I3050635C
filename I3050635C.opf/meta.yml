@@ -1,27 +1,50 @@
 id: I3050635C
+legacy_id: P000622
+ocr_import_info:
+  bdrc_scan_id: W26004
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-28T09:18:49'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-28T09:20:46+00:00'
-last_modified: '2022-06-07T12:29:10.238227+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-02T06:20:18.039515+00:00'
+last_modified: 2022-09-02 14:20:31.502939
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W26004
-  title: གནམ་འོག་གི་འཇིག་རྟེན
-  author: ''
+  id: http://purl.bdrc.io/resource/W26004
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    CCCB:
-      image_group_id: I1CZ2848
-      title: ''
+  reproduction_of: http://purl.bdrc.io/resource/MW26004
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: གནམ་འོག་གི་འཇིག་རྟེན།
+  author: ཁྲི་བློ་གྲོས།
+statistics:
+  ocr_word_mean_confidence_index: 0.9046368371959415
+  ocr_word_median_confidence_index: 0.9800000190734863
+quality: null
+bases:
+  I1CZ2848:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1CZ2848
       total_pages: 310
-      order: 1
-      base_file: CCCB.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1CZ2848.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9046368371959415
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
